@@ -10,6 +10,7 @@ colorama==0.4.4
 comtypes==1.1.7
 decorator==4.4.2
 flake8==3.8.4
+flask
 future==0.18.2
 geocoder==1.38.1
 geographiclib==1.50
@@ -20,6 +21,7 @@ google-auth==1.23.0
 google-auth-httplib2==0.0.4
 google-auth-oauthlib==0.4.2
 googleapis-common-protos==1.52.0
+gunicorn
 httplib2==0.18.1
 hurry==1.1
 hurry.filesize==0.9
