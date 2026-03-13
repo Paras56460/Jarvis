@@ -1,20 +1,6 @@
-from Jarvis import JarvisAssistant
-import re
-import os
-import random
-import pprint
-import datetime
+from flask import Flask, request, jsonify
+import wikipedia
 import requests
-import sys
-import urllib.parse  
-import pyjokes
-import time
-import pyautogui
-import pywhatkit
-import wolframalpha
-from PIL import Image
-from Jarvis.features.gui import Ui_MainWindow
-from Jarvis.config import config
 
 obj = JarvisAssistant()
 
